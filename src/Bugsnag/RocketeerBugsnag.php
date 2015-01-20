@@ -15,7 +15,7 @@ class RocketeerBugsnag extends AbstractPlugin
 	public function __construct(Container $app)
 	{
 		parent::__construct($app);
-		$this->configurationFolder = __DIR__ . '/../config';
+		$this->configurationFolder = __DIR__.'/../config';
 	}
 
 	/**
