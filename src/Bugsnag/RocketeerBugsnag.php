@@ -36,7 +36,7 @@ class RocketeerBugsnag extends AbstractPlugin
 			curl_setopt($ch, CURLOPT_HEADER, array('Content-Type: application/json'));
 
 			$params = array(
-				'apiKey'       => $this->config->get('rockteer-bugsnag::key'),
+				'apiKey'       => $this->config->get('rocketeer-bugsnag::key'),
 				'releaseStage' => $task->connections->getStage()
 			);
 
